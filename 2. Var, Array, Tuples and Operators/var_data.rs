@@ -170,36 +170,4 @@ fn main(){
     println!("Tuple: ({},{},{})",_tup2.0,_tup2.1,_tup2.2);
     let (_t1,_t2,_t3)=_tup2;
     println!("t1: {}, t2:{}, t3:{}",_t1,_t2,_t3);
-
-    println!("\nShadowing");
-    println!("---------");
-    let planet="Earth";
-    println!("Planet is Earth: {}",planet);
-
-    let planet="Venus";
-    println!("Planet is Earth: {}",planet);
-
-    let planet=5;
-    println!("Planet is Earth: {}",planet);
-
-    println!("\nString Literals");
-    println!("---------------");
-
-    let mut message=String::from("Earth");
-    println!("Message: {}",message);
-
-    message.push_str(" is home");
-    println!("Message: {}",message);
-
-    println!("\nOwnership");
-    println!("---------");
-
-    let outer_planet: String;
-    {
-        let inner_planet = String::from("Mercury");
-        outer_planet = inner_planet; // Moves `inner_planet` to `outer_planet`
-        println!("Inner planet is: {}", inner_planet); // Error: use of moved value
-    }
-    println!("Outer planet is: {}", outer_planet);
-
 }
