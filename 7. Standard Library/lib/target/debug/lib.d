@@ -1,1 +1,0 @@
-D:\Course\ECOM\ Specialist\ LLC\Rust\RUST-essential-training\RUST\ Programming\7.\ Standard\ Library\lib\target\debug\lib.exe: D:\Course\ECOM\ Specialist\ LLC\Rust\RUST-essential-training\RUST\ Programming\7.\ Standard\ Library\lib\src\main.rs
