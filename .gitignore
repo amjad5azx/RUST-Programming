@@ -1,0 +1,29 @@
+# Ignore the target directory where compiled files are stored
+/target/
+
+# Ignore the Cargo lock file for libraries (optional for binaries)
+Cargo.lock
+
+# Ignore build artifacts and other backup files
+**/*.rs.bk
+**/*.rs.swp
+**/*.rs.swo
+*.dSYM
+*.log
+*.tmp
+*.swp
+*.swo
+
+# Ignore IDE/editor-specific files
+/.idea/
+/.vscode/
+*.iml
+.DS_Store
+*.class
+*.jar
+*.war
+
+# Ignore output binaries (if any)
+*.exe
+*.out
+*.app
