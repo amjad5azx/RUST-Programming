@@ -1,13 +1,15 @@
 # Ignore the target directory where compiled files are stored
-/target/
+**/target/
 
-# Ignore the Cargo lock file for libraries (optional for binaries)
+# Ignore the Cargo.lock file for libraries (optional for binaries)
 Cargo.lock
 
-# Ignore build artifacts and other backup files
+# Ignore backup files for Rust source files
 **/*.rs.bk
 **/*.rs.swp
 **/*.rs.swo
+
+# Ignore other build artifacts and temporary files
 *.dSYM
 *.log
 *.tmp
@@ -19,11 +21,13 @@ Cargo.lock
 /.vscode/
 *.iml
 .DS_Store
+
+# Ignore Java output binaries (if any)
 *.class
 *.jar
 *.war
 
-# Ignore output binaries (if any)
+# Ignore executable output binaries (if any)
 *.exe
 *.out
 *.app
